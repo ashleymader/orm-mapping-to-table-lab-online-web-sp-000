@@ -37,10 +37,10 @@ class Student
   end
   
   def self.create 
-    Student.new(
-      name: 'Ashley',
-      grade: '18'
-      )
+    student = {name: 'Ashley', grade: '12'}
+    Student.new(student)
+    student.save 
+    student
   end
 end
 
