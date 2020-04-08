@@ -36,9 +36,8 @@ class Student
     @id = result.flatten.first
   end
   
-  def self.create 
-    student = {name: 'Ashley', grade: '12'}
-    Student.new(student)
+  def self.create(name:, grade:)
+    Student.new(name, grade)
     student.save 
     student
   end
