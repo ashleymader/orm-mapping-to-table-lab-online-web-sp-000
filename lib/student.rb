@@ -38,7 +38,7 @@ class Student
   
   def self.create 
     Student.new(
-      name: 'Ashley'
+      name: 'Ashley',
       grade: '18'
       )
   end
