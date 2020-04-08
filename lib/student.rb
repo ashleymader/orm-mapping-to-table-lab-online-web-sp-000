@@ -38,8 +38,8 @@ class Student
   
   def self.create 
     student = Self.new(
-      name: 
-      grade: 
+      name: 'Ashley'
+      grade: '18'
       )
   end
 end
