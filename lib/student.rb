@@ -37,7 +37,7 @@ class Student
   end
   
   def self.create 
-    
+    student = Self.new
   end
 end
 
